@@ -567,6 +567,7 @@ hr {
   }
   .upcoming-events-card {
     margin: 10px auto;
+    width: 294px;
   }
   .own-events-section-container {
     flex-direction: column;
@@ -583,6 +584,14 @@ hr {
     padding: 15px 20px;
 
   }
+  .icon img {
+    width: 142px;
+    height: 61px;
+}
+.icon-2 img {
+  width: 145px;
+  height: 40px;
+}
   .join-section-heading {
     padding: 15px 15px;
   }
