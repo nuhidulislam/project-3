@@ -1,128 +1,124 @@
-*{
-  margin: 0px ;
+* {
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 /* banner section style start here */
-header{
+header {
   background-image: url(images/bg-banner.jpeg);
   display: flex;
   margin: 0px auto;
   max-width: 1300px;
   height: 600px;
   background-repeat: no-repeat;
-  background-position:  center;
+  background-position: center;
   background-size: cover;
   position: relative;
- 
 }
-.banner-container{
-  background: linear-gradient(to right, rgba(237, 70, 144, 1), rgba(85, 34, 204, 1));
+.banner-container {
+  background: linear-gradient(
+    to right,
+    rgba(237, 70, 144, 1),
+    rgba(85, 34, 204, 1)
+  );
   opacity: 0.9;
   width: 100%;
   height: 100%;
   color: white;
-  
- 
 }
 
 /* nav section start here */
-nav{
+nav {
   align-items: center;
   width: 1080px;
   margin: 0px auto;
-  
+
   display: flex;
   justify-content: space-between;
 }
 
-
-.nav-heading{
+.nav-heading {
   display: flex;
   align-items: center;
   gap: 5px;
   color: white;
 }
-.nav-heading img{
+.nav-heading img {
   width: 80px;
   height: 80px;
 }
-.nav-heading h1{
+.nav-heading h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
-#ick{
- font-weight: 200;
- font-size: 2.5rem;
- 
+#ick {
+  font-weight: 200;
+  font-size: 2.5rem;
 }
 
-.nav-btn ul{
+.nav-btn ul {
   display: flex;
   gap: 30px;
-
 }
-.nav-btn ul li{
+.nav-btn ul li {
   list-style: none;
 }
-.nav-btn ul li a{
+.nav-btn ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.2rem;
 }
-#login-btn{
+#login-btn {
   border: 2px solid white;
   padding: 10px 25px;
   border-radius: 20px;
 }
 /* nav section end hre */
 
-.banner-container-section{
+.banner-container-section {
   display: flex;
- 
+
   margin: 0px auto;
   max-width: 1080px;
 }
-.banner-img{
-  
+.banner-img {
   width: 50%;
 }
-.banner-img img{
+.banner-img img {
   height: 400px;
-  
 }
-.banner-text{
+.banner-text {
   width: 50%;
   padding: 80px 50px;
 }
 
-.banner-text h1{
+.banner-text h1 {
   font-size: 2.5rem;
   font-weight: bold;
 }
-.banner-text p{
+.banner-text p {
   width: 90%;
   margin: 20px 0px;
 }
-.banner-btn{
+.banner-btn {
   display: flex;
   gap: 40px;
   text-align: center;
 }
-.get-ticket-btnn{
+.get-ticket-btnn {
   padding: 12px 25px;
   font-size: 18px;
   font-weight: bold;
-  background:#F5167E ;
+  background: #f5167e;
   color: white;
   border: none;
   border-radius: 20px;
   cursor: pointer;
 }
 
-.learn-more-btnn{
+.learn-more-btnn {
   padding: 11px 23px;
   font-size: 18px;
   font-weight: bold;
@@ -137,8 +133,7 @@ nav{
 /* banner section style end here */
 
 /* banner-bottom-section-style- start-container */
-.banner-bottom-section-container{
-  
+.banner-bottom-section-container {
   height: 150px;
   border-radius: 20px;
   background: #242565;
@@ -154,13 +149,12 @@ nav{
   justify-content: space-between;
   max-width: 1080px;
 }
-.text{
+.text {
   width: 250px;
   height: 70px;
   align-items: center;
- 
 }
-.text input{
+.text input {
   width: 250px;
   border: none;
   color: white;
@@ -169,22 +163,20 @@ nav{
   padding: 10px;
 }
 
-.text select{
+.text select {
   width: 250px;
   border: none;
   color: white;
   background: transparent;
   border-bottom: 2px solid white;
   padding: 10px;
-
-
+  
 }
-
 
 /* banner-bottom-section-style-end-container */
 
 /* upcoming events section style start here */
-.upcoming-section-heading{
+.upcoming-section-heading {
   display: flex;
   max-width: 1080px;
   margin: 0px auto;
@@ -193,64 +185,60 @@ nav{
   justify-content: space-between;
 }
 
-.option-container select{
+.option-container select {
   margin-left: 20px;
   padding: 10px 25px;
-  background:#F2F4FF ;
+  background: #f2f4ff;
   font-size: 20px;
   border-radius: 20px;
-  
 }
-.upcoming-heading h1{
+.upcoming-heading h1 {
   font-size: 2rem;
 }
 
-.upcoming-events-cards-container{
+.upcoming-events-cards-container {
   width: 1080px;
   margin: 60px auto;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
- background: #f4f2f2;
- padding: 10px;
- border-radius: 20px;
+  background: #f4f2f2;
+  padding: 10px;
+  border-radius: 20px;
 }
 
-.upcoming-events-card{
+.upcoming-events-card {
   width: 330px;
   box-sizing: border-box;
   border-radius: 20px;
   border: none;
- background: white;
-  
-
+  background: white;
 }
-.upcoming-events-card img{
+.upcoming-events-card img {
   height: 200px;
-  width:100%;
+  width: 100%;
 }
-.card-heading{
+.card-heading {
   display: flex;
   gap: 20px;
   align-items: center;
 }
-.card-heading p{
+.card-heading p {
   color: rgba(61, 55, 241, 1);
 }
-.card-heading-left{
+.card-heading-left {
   padding-left: 10px;
 }
-.text-primary{
+.text-primary {
   color: rgba(106, 106, 106, 1);
   padding-left: 55px;
   padding-bottom: 20px;
 }
 
-.load-more-btn-section{
+.load-more-btn-section {
   display: flex;
- 
 }
-.load-more-btn{
+.load-more-btn {
   padding: 12px 25px;
   background: transparent;
   border: 2px solid rgba(61, 55, 241, 1);
@@ -259,15 +247,13 @@ nav{
   border-radius: 20px;
 }
 
-
 /* upcoming events section style end hre */
 
-
 /* own events section style start here */
-.own-events-section-container{
- max-width: 1080px;
+.own-events-section-container {
+  max-width: 1080px;
   height: 400px;
-  background: #EEE1FF;
+  background: #eee1ff;
   display: flex;
   gap: 100px;
   align-items: center;
@@ -275,53 +261,44 @@ nav{
   margin: 0px auto;
 }
 
-.own-events-img img{
-  
+.own-events-img img {
   margin-left: 50px;
 }
 
-
-
-.own-events-text{
+.own-events-text {
   width: 650px;
   margin-right: 30px;
-
 }
-.own-events-text p{
+.own-events-text p {
   margin: 15px 0px;
-  color:rgba(106, 106, 106, 1) ;
+  color: rgba(106, 106, 106, 1);
 }
 
-.creates-events-btn{
+.creates-events-btn {
   padding: 15px 30px;
-  background: #F5167E;
+  background: #f5167e;
   border: none;
   border-radius: 20px;
   color: white;
   font-size: 25px;
-  
 }
-
 
 /* own events section style end here */
 
-
-
 /* join this brands section style start here */
-.join-section-heading{
-  
+.join-section-heading {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 40px 0px;
 }
 
-.join-section-heading p{
-  color:rgba(106, 106, 106, 1) ;
+.join-section-heading p {
+  color: rgba(106, 106, 106, 1);
   text-align: center;
 }
 
-.join-icon-container{
+.join-icon-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   max-width: 1080px;
@@ -329,14 +306,13 @@ nav{
   margin-bottom: 20px;
   justify-content: space-between;
 }
-.icon img{
+.icon img {
   width: 170px;
   height: 80px;
-  
 }
 
 /* join icon container-2 */
-.join-icon-container-2{
+.join-icon-container-2 {
   display: grid;
   grid-template-columns: auto auto auto auto;
   max-width: 1080px;
@@ -345,139 +321,128 @@ nav{
   align-items: center;
   margin-bottom: 40px;
 }
-.icon-2 img{
+.icon-2 img {
   width: 170px;
   height: 60px;
 }
-
 
 /* join this brands section style end here */
 
 /* blog section style start here */
 
-.blog-heading{
+.blog-heading {
   width: 60%;
   margin: 20px auto;
   text-align: center;
 }
-.blog-heading p{
-  color:rgba(106, 106, 106, 1) ;
+.blog-heading p {
+  color: rgba(106, 106, 106, 1);
 }
 
-.blog-container{
+.blog-container {
   max-width: 1080px;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
 }
-.blog-card img{
+.blog-card img {
   width: 100%;
-  
 }
-.blog-card{
+.blog-card {
   width: 320px;
   text-align: justify;
   box-sizing: border-box;
   border-radius: 20px;
   box-shadow: 0px 0px 10px black;
 }
-.blog-card h2{
+.blog-card h2 {
   padding: 10px 15px;
 }
-.blog-card p{
+.blog-card p {
   padding: 10px 15px;
-  color:rgba(106, 106, 106, 1) ;
+  color: rgba(106, 106, 106, 1);
 }
-
 
 /* blog section style end here */
 
-
 /* footer section style start here */
-footer{
-  background: #0A075F;
+footer {
+  background: #0a075f;
   max-width: 1300px;
   /* display: flex; */
   margin: 0px auto;
   height: 450px;
-  border: 2px solid #0A075F;
+  border: 2px solid #0a075f;
   box-sizing: border-box;
 }
 
-.footer-container{
+.footer-container {
   display: flex;
- max-width: 1080px;
+  max-width: 1080px;
   margin: 50px auto;
   gap: 20px;
 }
 
-
-.footer-part-1{
+.footer-part-1 {
   width: 35%;
-
 }
-.footer-part-1 p{
+.footer-part-1 p {
   color: white;
   padding: 10px 0px;
 }
-.nav-icon{
+.nav-icon {
   margin-left: -22px;
 }
-.social-icon-container{
+.social-icon-container {
   display: flex;
   gap: 20px;
-  
-  
 }
-.social-icon-img img{
+.social-icon-img img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-position:  center;
-  background-size:cover;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   background: white;
   cursor: pointer;
-  
 }
 
-
-.footer-part-2{
+.footer-part-2 {
   width: 15%;
   padding: 20px 0px;
 }
 
-.footer-part-heading{
+.footer-part-heading {
   margin-bottom: 20px;
 }
-.footer-part-2 ul li{
+.footer-part-2 ul li {
   list-style: none;
 }
 
-.footer-part-2 ul li a{
+.footer-part-2 ul li a {
   text-decoration: none;
   color: white;
 }
 
-.footer-part-4{
+.footer-part-4 {
   width: 40%;
   padding: 20px 0px;
-
 }
-.footer-part-heading{
+.footer-part-heading {
   margin-bottom: 20px;
 }
-.footer-part-4 ul li{
+.footer-part-4 ul li {
   list-style: none;
 }
 
-.footer-part-4 ul li a{
+.footer-part-4 ul li a {
   text-decoration: none;
   color: white;
 }
 
-.subscribe-section{
+.subscribe-section {
   background: white;
   display: flex;
   height: 60px;
@@ -485,34 +450,32 @@ footer{
   border: none;
   align-items: center;
   gap: 28px;
-box-sizing: border-box;
-margin-top: 20px;
-max-width: 500px;
-border: 2px solid red;
+  box-sizing: border-box;
+  margin-top: 20px;
+  max-width: 500px;
 }
 
-.subscribe-section input{
+.subscribe-section input {
   border: none;
   margin-left: 30px;
 }
 
-.subscribe-btn{
+.subscribe-btn {
   padding: 10px 16px;
-  background: #F5167E;
+  background: #f5167e;
   border-radius: 30px;
 }
 
-hr{
+hr {
   width: 1150px;
   margin: 10px auto;
 }
 
-.footer-end-section{
+.footer-end-section {
   display: flex;
-  
 }
 
-.footer-end-section p{
+.footer-end-section p {
   color: white;
   padding-bottom: 30px;
   margin: 0px auto;
