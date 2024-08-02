@@ -8,7 +8,9 @@
 /* banner section style start here */
 header{
   background-image: url(images/bg-banner.jpeg);
-  width: 100%;
+  display: flex;
+  margin: 0px auto;
+  max-width: 1300px;
   height: 600px;
   background-repeat: no-repeat;
   background-position:  center;
@@ -22,13 +24,14 @@ header{
   width: 100%;
   height: 100%;
   color: white;
-  position: absolute;
+  
+ 
 }
 
 /* nav section start here */
 nav{
   align-items: center;
-  width: 90%;
+  width: 1080px;
   margin: 0px auto;
   
   display: flex;
@@ -78,8 +81,9 @@ nav{
 
 .banner-container-section{
   display: flex;
-  width: 90%;
+ 
   margin: 0px auto;
+  max-width: 1080px;
 }
 .banner-img{
   
@@ -87,7 +91,7 @@ nav{
 }
 .banner-img img{
   height: 400px;
-  margin-left: 50px;
+  
 }
 .banner-text{
   width: 50%;
@@ -134,7 +138,7 @@ nav{
 
 /* banner-bottom-section-style- start-container */
 .banner-bottom-section-container{
-  width: 80%;
+  
   height: 150px;
   border-radius: 20px;
   background: #242565;
@@ -143,17 +147,37 @@ nav{
   align-items: center;
   padding: 10px 30px;
   gap: 20px;
-  position: absolute;
+  margin: 0px auto;
   margin-top: -82px;
-  margin-left: 150px;
   z-index: 1;
+  position: relative;
   justify-content: space-between;
+  max-width: 1080px;
 }
 .text{
   width: 250px;
   height: 70px;
   align-items: center;
  
+}
+.text input{
+  width: 250px;
+  border: none;
+  color: white;
+  background: transparent;
+  border-bottom: 2px solid white;
+  padding: 10px;
+}
+
+.text select{
+  width: 250px;
+  border: none;
+  color: white;
+  background: transparent;
+  border-bottom: 2px solid white;
+  padding: 10px;
+
+
 }
 
 
@@ -162,7 +186,7 @@ nav{
 /* upcoming events section style start here */
 .upcoming-section-heading{
   display: flex;
-  width: 90%;
+  max-width: 1080px;
   margin: 0px auto;
   margin-top: 150px;
   align-items: center;
@@ -170,7 +194,7 @@ nav{
 }
 
 .option-container select{
-  margin-left: 40px;
+  margin-left: 20px;
   padding: 10px 25px;
   background:#F2F4FF ;
   font-size: 20px;
@@ -178,22 +202,27 @@ nav{
   
 }
 .upcoming-heading h1{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .upcoming-events-cards-container{
-  width: 90%;
+  width: 1080px;
   margin: 60px auto;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 30px;
+ background: #f4f2f2;
+ padding: 10px;
+ border-radius: 20px;
 }
 
 .upcoming-events-card{
-  width: 347px;
+  width: 330px;
   box-sizing: border-box;
   border-radius: 20px;
-  box-shadow: 0px 0px 5px black;
+  border: none;
+ background: white;
+  
 
 }
 .upcoming-events-card img{
@@ -236,13 +265,14 @@ nav{
 
 /* own events section style start here */
 .own-events-section-container{
-  width: 100%;
+ max-width: 1080px;
   height: 400px;
   background: #EEE1FF;
   display: flex;
   gap: 100px;
   align-items: center;
   justify-content: center;
+  margin: 0px auto;
 }
 
 .own-events-img img{
@@ -294,7 +324,7 @@ nav{
 .join-icon-container{
   display: grid;
   grid-template-columns: auto auto auto auto auto;
-  width: 90%;
+  max-width: 1080px;
   margin: 0px auto;
   margin-bottom: 20px;
   justify-content: space-between;
@@ -309,7 +339,7 @@ nav{
 .join-icon-container-2{
   display: grid;
   grid-template-columns: auto auto auto auto;
-  width: 70%;
+  max-width: 1080px;
   margin: 0px auto;
   justify-content: space-between;
   align-items: center;
@@ -335,7 +365,7 @@ nav{
 }
 
 .blog-container{
-  width: 90%;
+  max-width: 1080px;
   margin: 20px auto;
   display: flex;
   justify-content: space-between;
@@ -346,7 +376,7 @@ nav{
   
 }
 .blog-card{
-  width: 350px;
+  width: 320px;
   text-align: justify;
   box-sizing: border-box;
   border-radius: 20px;
@@ -367,7 +397,9 @@ nav{
 /* footer section style start here */
 footer{
   background: #0A075F;
-  width: 100%;
+  max-width: 1300px;
+  /* display: flex; */
+  margin: 0px auto;
   height: 450px;
   border: 2px solid #0A075F;
   box-sizing: border-box;
@@ -375,7 +407,7 @@ footer{
 
 .footer-container{
   display: flex;
-  width: 90%;
+ max-width: 1080px;
   margin: 50px auto;
   gap: 20px;
 }
@@ -387,12 +419,15 @@ footer{
 }
 .footer-part-1 p{
   color: white;
-  padding: 10px 20px;
+  padding: 10px 0px;
+}
+.nav-icon{
+  margin-left: -22px;
 }
 .social-icon-container{
   display: flex;
   gap: 20px;
-  margin-left: 20px;
+  
   
 }
 .social-icon-img img{
@@ -449,10 +484,11 @@ footer{
   border-radius: 30px;
   border: none;
   align-items: center;
-  gap: 20px;
+  gap: 28px;
 box-sizing: border-box;
 margin-top: 20px;
-width: 100%;
+max-width: 500px;
+border: 2px solid red;
 }
 
 .subscribe-section input{
@@ -461,13 +497,13 @@ width: 100%;
 }
 
 .subscribe-btn{
-  padding: 15px 30px;
+  padding: 10px 16px;
   background: #F5167E;
   border-radius: 30px;
 }
 
 hr{
-  width: 80%;
+  width: 1150px;
   margin: 10px auto;
 }
 
